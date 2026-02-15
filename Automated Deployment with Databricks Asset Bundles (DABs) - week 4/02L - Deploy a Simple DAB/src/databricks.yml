@@ -49,5 +49,11 @@ targets:
     
   # Add your configuration for the 'dev' target here.
   dev:
-    # Make sure to specify the deployment mode
-    # Ensure the 'default: true' flag is set for the target you wish to deploy by default
+    # Make sure to specify the deployment details for the development environment.
+    mode: development
+
+    # Ensure the 'default: true' flag is set for the target you wish to deploy by default.
+    default: true
+
+    workspace:
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
