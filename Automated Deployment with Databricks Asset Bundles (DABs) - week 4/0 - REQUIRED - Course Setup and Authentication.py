@@ -273,3 +273,6 @@ creds = DA.load_credentials()
 # MAGIC <a href="https://databricks.com/terms-of-use" target="blank">Terms of Use</a> | 
 # MAGIC <a href="https://help.databricks.com/" target="blank">Support</a>
 # MAGIC
+
+# COMMAND ----------
+
